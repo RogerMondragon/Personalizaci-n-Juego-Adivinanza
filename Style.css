@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://colombia.unir.net/wp-content/uploads/sites/4/2015/04/videojuegos_1920x1080.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fffffffe; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(11, 11, 11, 0.2);
+    text-align: center; /* Centrar texto */
+}
+
+h1 {
+    color: #0004ff; /* Color llamativo para el título */
+}
+
+h2 {
+    color: #0004ff;
+}
+
+label {
+    display: block;
+    margin: 10px 0; /* Margen entre el label y el input */
+    font-size: 18px;
+    color: #000000; /* Color oscuro para el texto */
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 2px solid #000000; /* Borde color llamativo */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #21ca29; /* Color de fondo llamativo para el botón */
+    color: white; /* Color de texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #00f7ff; /* Color más oscuro al pasar el mouse */
+}
+
+@media (max-width: 600px) {
+    body {
+        height: auto; /* Ajustar la altura para dispositivos móviles */
+    }
+
+    .container {
+        width: 90%; /* Ajustar el ancho en pantallas pequeñas */
+    }
+}
